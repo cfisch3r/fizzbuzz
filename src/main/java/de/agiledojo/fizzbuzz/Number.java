@@ -2,11 +2,11 @@ package de.agiledojo.fizzbuzz;
 
 class Number {
 
+    private int number;
+
     Number(int number) {
         this.number = number;
     }
-
-    private int number;
 
     boolean hasDivisor(int i) {
         return this.number % i == 0;
