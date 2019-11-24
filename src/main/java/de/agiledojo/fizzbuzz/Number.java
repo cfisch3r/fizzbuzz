@@ -8,8 +8,8 @@ class Number {
         this.number = number;
     }
 
-    boolean hasDivisor(int i) {
-        return this.number % i == 0;
+    boolean hasDivisor(int divisor) {
+        return this.number % divisor == 0;
     }
 
     @Override
